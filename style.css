@@ -402,6 +402,78 @@ top: 990px;
 
 }
 
+.kozbanl {
+position: absolute;
+left: 0%;
+right: 50.56%;
+top: 0%;
+bottom: 51.22%;
+background-repeat: no-repeat;
+background-image: url(img/shutterstock_1667920105.png);
+transform: matrix(-1, 0, 0, 1, 0, 0);
+}
+
+.kisbanl1 {
+position: absolute;
+left: 0%;
+right: 75.84%;
+top: 51.22%;
+bottom: 0%;
+background-repeat: no-repeat;
+background: url(img/shutterstock_1354457348.jpg);
+}
+
+.kisbanl2 {
+position: absolute;
+left: 25.28%;
+right: 50.56%;
+top: 51.22%;
+bottom: 0%;
+background-repeat: no-repeat;
+background-image: url(img/shutterstock_1377250259.png);
+}
+
+.kisbanr1 {
+position: absolute;
+left: 50.56%;
+right: 25.28%;
+top: 0%;
+bottom: 51.22%;
+background-repeat: no-repeat;
+background-image: url(img/shutterstock_1020418684.png);
+}
+
+.kisbanr2 {
+position: absolute;
+left: 75.84%;
+right: 0%;
+top: 0%;
+bottom: 51.22%;
+background-repeat: no-repeat;
+background-image: url(img/shutterstock_1710322954.png);
+}
+
+.kozbanr {
+position: absolute;
+left: 50.62%;
+right: -0.06%;
+top: 51.22%;
+bottom: 0%;
+background-repeat: no-repeat;
+background-image: url(img/shutterstock_1310794589.png);
+}
+
+.image {
+position: absolute;
+left: 90.06%;
+right: -0.45%;
+top: 0px;
+bottom: -16.95%;
+background-repeat: no-repeat;
+background-image: url(img/image.png);
+filter: blur(84px);
+}
+
 .akcios {
 position: absolute;
 width: 1780px;
