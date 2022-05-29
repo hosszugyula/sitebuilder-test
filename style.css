@@ -581,7 +581,7 @@ text-decoration-line: line-through;
 color: #A1A1A1;
 }
 
-.snapfirst>button {
+.snapfirst>button   {
 position: absolute;
 width: 160px;
 height: 50px;
@@ -1010,11 +1010,532 @@ filter: drop-shadow(0px 4px 4px rgba(0, 0, 0, 0.25));
 background: #212121;
 }
 
+.kapcsolatfooter {
+position: absolute;
+width: 686px;
+height: 18px;
+left: 617px;
+top: 101px;
+
+}
+
+.menu {
+position: absolute;
+width: 1042px;
+height: 18px;
+left: 439px;
+top: 41px;
+}
+
+#kapcs {
+position: absolute;
+width: 67px;
+height: 18px;
+left: 0px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#akcis {
+position: absolute;
+width: 109px;
+height: 18px;
+left: 107px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#adatv {
+position: absolute;
+width: 161px;
+height: 18px;
+left: 256px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#vasarl {
+position: absolute;
+width: 126px;
+height: 18px;
+left: 458px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height, or 129% */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#fiz_szallit {
+position: absolute;
+width: 106px;
+height: 18px;
+left: 625px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#adatved {
+position: absolute;
+width: 88px;
+height: 18px;
+left: 771px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#seg {
+position: absolute;
+width: 57px;
+height: 18px;
+left: 899px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#rolu {
+position: absolute;
+width: 46px;
+height: 18px;
+left: 996px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+.pixf1 {
+position: absolute;
+width: 1px;
+height: 17px;
+left: 87px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+.pixf2 {
+position: absolute;
+width: 1px;
+height: 17px;
+left: 236px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+.pixf3 {
+position: absolute;
+width: 1px;
+height: 17px;
+left: 438px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+.pixf4 {
+position: absolute;
+width: 1px;
+height: 17px;
+left: 605px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+.pixf5 {
+position: absolute;
+width: 1px;
+height: 17px;
+left: 751px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+.pixf6 {
+position: absolute;
+width: 1px;
+height: 17px;
+left: 879px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+.pixf7 {
+position: absolute;
+width: 1px;
+height: 17px;
+left: 976px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+#loc {
+position: absolute;
+width: 193px;
+height: 18px;
+left: 0px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A6A6A6;
+}
+
+#mail {
+position: absolute;
+width: 130px;
+height: 18px;
+left: 233px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #FFFFFF;
+}
+
+#tel {
+position: absolute;
+width: 100px;
+height: 18px;
+left: 403px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A6A6A6;
+}
+
+#up {
+position: absolute;
+width: 143px;
+height: 18px;
+left: 543px;
+top: 0px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 14px;
+line-height: 18px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A6A6A6;
+}
+
+.pixf11 {
+position: absolute;
+width: 1px;
+height: 17px;
+left: 213px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+.pixf12{
+position: absolute;
+width: 1px;
+height: 17px;
+left: 384px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+.pixf13 {
+position: absolute;
+width: 1px;
+height: 17px;
+left: 524px;
+top: 0px;
+
+background: #5C5C5C;
+}
+
+#copyr {
+position: absolute;
+width: 109px;
+height: 15px;
+left: 905px;
+top: 231px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 12px;
+line-height: 15px;
+/* identical to box height */
+
+text-align: center;
+
+color: #A6A6A6;
+}
+
+#footermess {
+position: absolute;
+width: 1170px;
+height: 124px;
+left: 381px;
+top: 324px;
+
+font-family: 'Quicksand';
+font-style: normal;
+font-weight: 500;
+font-size: 13px;
+line-height: 22px;
+/* or 169% */
+
+text-align: center;
+
+color: #767676;
+}
+
+.social {
+position: absolute;
+width: 225px;
+height: 21px;
+left: 847px;
+top: 169px;
+}
+
+.fb {
+position: absolute;
+width: 21px;
+height: 21px;
+left: 0px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/fb.png);
+}
+
+.insta {
+position: absolute;
+width: 21px;
+height: 21px;
+left: 51px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/insta.png);
+}
+
+.yt {
+position: absolute;
+width: 21px;
+height: 21px;
+left: 102px;
+top: 4px;
+background-repeat: no-repeat;
+background-image: url(img/youtube.png);
+}
+
+.mess {
+position: absolute;
+width: 21px;
+height: 21px;
+left: 153px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/mess.png);
+}
+
+.twitter {
+position: absolute;
+width: 21px;
+height: 21px;
+left: 204px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/twitter.png);
+}
+
 .szallfiz {
 position: absolute;
 width: 1920px;
 height: 80px;
 left: 1px;
 top: 4120px;
+
+background: #FFFFFF;
+}
+
+.logok {
+position: absolute;
+width: 920px;
+height: 45.92px;
+left: 508px;
+top: 19px;
+}
+
+.gls {
+position: absolute;
+width: 87.66px;
+height: 23.38px;
+left: 0px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/gls.jpg);
+}
+
+.dpd {
+position: absolute;
+width: 90.16px;
+height: 39.24px;
+left: 118.55px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/dpd.png);
+}
+
+.paypal {
+position: absolute;
+width: 88.49px;
+height: 23.38px;
+left: 242.1px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/paypal.png);
+}
+
+.masterc {
+position: absolute;
+width: 133.58px;
+height: 34.23px;
+left: 360.65px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/masterc.png);
+}
+
+.maestro {
+position: absolute;
+width: 111.03px;
+height: 31.72px;
+left: 515.1px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/maestro.png);
+}
+
+.szepk {
+position: absolute;
+width: 96.01px;
+height: 45.92px;
+left: 657.02px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/szepk.png);
+}
+
+.arukereso {
+position: absolute;
+width: 133.58px;
+height: 16.31px;
+left: 786.42px;
+top: 0px;
+background-repeat: no-repeat;
+background-image: url(img/arukereso.png);
 }
 
