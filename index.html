@@ -2,6 +2,7 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>Teszt</title>
     <meta name="description" content="Test task for a Frontend Job." />
     <meta name="author" content="Hosszú Gyula" />
@@ -23,18 +24,32 @@
         <span id="nyil" class="fa fa-angle-down"></span>
         <span id="teszttema">Teszttéma</span>
         <span id="pix13"></span>
-        <span id="kereses">keresés...</span>
+        <input id="kereses" placeholder="keresés..."></input>
         <i style="position: absolute;width: 19.82px;height: 20px;left: 1634px;top: 44px;color: #FFFFFF;" class="fa fa-search"></i>
         <i style="position: absolute;width: 20.55px;height: 20px;left: 1703.82px;top: 44px;color: #FFFFFF;" class="fa fa-user"></i>
         <i style="position: absolute;width: 23.99px;height: 20px;left: 1774.36px;top: 44px;color: #FFFFFF;" class="fa fa-heart"></i>
         <i style="position: absolute;width: 22.31px;height: 25px;left: 1848.35px;top: 44px;color: #FFFFFF;" class="fa fa-briefcase"></i>
-        <span id="nav">ARCÁPOLÁS TESTÁPOLÁs HAJÁPOLÁS SMINK BŐRTÍPUSOK ÚJDONSÁGOK FÉRFIAKNAK BABA-MAMA AJÁNDÉK ÖTLETEK MÁRKÁK AKCIÓ</span>
+        <div class="nav">
+            <span>ARCÁPOLÁS</span>
+            <span>TESTÁPOLÁs</span>
+            <span>HAJÁPOLÁS</span>
+            <span>SMINK</span>
+            <span>BŐRTÍPUSOK</span>
+            <span>ÚJDONSÁGOK</span>
+            <span>FÉRFIAKNAK</span>
+            <span>BABA-MAMA</span>
+            <span>AJÁNDÉK</span>
+            <span>ÖTLETEK</span>
+            <span>MÁRKÁK</span>
+            <span>AKCIÓ</span>
+
+        </div>
     </div>
-</div> <!-- basic done -->
+</div> <!-- done -->
 <div class="elony_sav">
         <img src="img/Vector.png"/>
         <span id="kiz">kizárólag növényi eredetű alkotó elemek</span>
-</div> <!-- basic done -->
+</div> <!-- done -->
 <div class="nagyban_1">
     <div class="alap2">
     <div class="nagyban">
@@ -54,7 +69,7 @@
                 <div><a href="#s1" class="fa fa-angle-left"></a><a href="#s3" class="fa fa-angle-right"></a></div>
                 <div><a href="#s2" class="fa fa-angle-left"></a><a href="#s4" class="fa fa-angle-right"></a></div>
                 <div><a href="#s3" class="fa fa-angle-left"></a><a href="#s1" class="fa fa-angle-right"></a></div>
-                <div><a href="#s5" class="fa fa-angle-left"></a><a href="#s5" class="fa fa-angle-right"></a></div>
+                <div><a href="#s5" class="fa fa-angle-left"></a><a href="#s1" class="fa fa-angle-right"></a></div>
             </div>
             <div class="bullets">
                 <a href="#s1"></a>
@@ -76,33 +91,44 @@
 </div> <!-- done -->
 <div class="mozaik">
     <div class="kozbanl">
-
+        <span id="h1">Heading</span>
     </div>
     <div class="kisbanl1">
-
+        <span id="h2">Heading</span>
     </div>
     <div class="kisbanl2">
-
+        <span id="h3">Heading</span>
     </div>
     <div class="kisbanr1">
-
+        <span id="h4">Heading</span>
     </div>
     <div class="kisbanr2">
-
+        <span id="h5">Heading</span>
     </div>
     <div class="kozbanr">
+        <span id="h6">Heading</span>
         <div class="image">
-
         </div>
     </div>
-</div>  <!--- basics done, without heading -->
+</div>  <!--- done -->
 <div class="akcios">
     <span id="akcterm">akciós termékek</span>
     <div class="snapfirst">
         <div class="snap1"></div>
         <snap id="head1">Lorem ipsum dolor sit amet, consectetur adipiscing</snap>
         <snap id="text1">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua incididunt ut. </snap>
-        <div class="rating1"></div>
+        <div class="rate1">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+        </div>
         <snap id="value1">12 300 Ft    10 900 Ft</snap>
         <button>kosárba</button>
     </div>
@@ -110,7 +136,18 @@
         <div class="snap2"></div>
         <snap id="head2">Lorem ipsum dolor sit amet, consectetur adipiscing</snap>
         <snap id="text2">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua incididunt ut. </snap>
-        <div class="rating2"></div>
+        <div class="rate2">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+        </div>
         <snap id="value2">12 300 Ft    10 900 Ft</snap>
         <button>kosárba</button>
     </div>
@@ -118,7 +155,18 @@
         <div class="snap3"></div>
         <snap id="head3">Lorem ipsum dolor sit amet, consectetur adipiscing</snap>
         <snap id="text3">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua incididunt ut. </snap>
-        <div class="rating3"></div>
+        <div class="rate3">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+        </div>
         <snap id="value3">12 300 Ft    10 900 Ft</snap>
         <button>kosárba</button>
     </div>
@@ -126,12 +174,23 @@
         <div class="snap4"></div>
         <snap id="head4">Lorem ipsum dolor sit amet, consectetur adipiscing</snap>
         <snap id="text4">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore dolore magna aliqua incididunt ut. </snap>
-        <div class="rating4"></div>
+        <div class="rate4">
+            <input type="radio" id="star5" name="rate" value="5" />
+            <label for="star5" title="text">5 stars</label>
+            <input type="radio" id="star4" name="rate" value="4" />
+            <label for="star4" title="text">4 stars</label>
+            <input type="radio" id="star3" name="rate" value="3" />
+            <label for="star3" title="text">3 stars</label>
+            <input type="radio" id="star2" name="rate" value="2" />
+            <label for="star2" title="text">2 stars</label>
+            <input type="radio" id="star1" name="rate" value="1" />
+            <label for="star1" title="text">1 star</label>
+        </div>
         <snap id="value4">12 300 Ft    10 900 Ft</snap>
         <button>kosárba</button>
     </div>
     <button>Összes akciós termék &rarr;</button>
-</div> <!--- basics done -->
+</div> <!--- done -->
 <div class="video_dinamikus">
     <div class="color">
         <div class="mask_group">
@@ -140,7 +199,7 @@
     <span id="main">a természetes szépségért</span>
     <span id="sub">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor</span>
     <button>Megnézem &rarr;</button>
-</div> <!--- basics done -->
+</div> <!--- done -->
 <div class="footer">
     <div class="menu">
         <span id="kapcs">Kapcsolat</span>
@@ -205,7 +264,7 @@
         ullam corporis suscipit laboriosam, nisi ut aliquid ex ea commodi consequatur? Quis autem
         vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur,
         vel illum qui dolorem eum fugiat quo voluptas nulla pariatur?</span>
-</div> <!--- basisc done -->
+</div> <!--- done -->
 <div class="szallfiz">
     <div class="logok">
         <div class="gls"></div>
@@ -216,7 +275,7 @@
         <div class="szepk"></div>
         <div class="arukereso"></div>
     </div>
-</div>  <!---- basics done -->
+</div>  <!---- done -->
 </div>
 </body>
 </html>
